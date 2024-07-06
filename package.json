@@ -1,0 +1,23 @@
+{
+  "name": "react-lite-input",
+  "version": "1.0.3",
+  "description": "A simple and reusable hook for managing form input state",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"No tests yet, please add them!\" && exit 1"
+  },
+  "keywords": ["react", "hook", "form", "input", "state"],
+  "author": "Michael Victor <radmakson@gmail.com> (github.com/YourmixJNR)",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.3"
+  }
+}
