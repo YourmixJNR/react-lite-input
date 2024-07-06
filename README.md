@@ -36,7 +36,7 @@ const MyForm = () => {
   const initialValues = { username: "", age: "" };
   const { values, handleLiteChange } = useInput(initialValues);
 
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (event) => {
     event.preventDefault();
 
     console.log(values); // Access the input values
@@ -64,7 +64,7 @@ const MyForm = () => {
           type="number"
           name="age"
           value={values.age}
-          onChange={handleChange}
+          onChange={handleLiteChange}
         />
       </label>
       <button type="submit">Submit</button>
