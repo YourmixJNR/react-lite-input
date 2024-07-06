@@ -82,11 +82,11 @@ const { values, handleLiteChange } = useInput(initialValue: InitialValues);
 ```
 
 - Parameters:
-- - `initialValue` : An object with keys representing the input names and values representing the initial values of the inputs.
+    - `initialValue` : An object with keys representing the input names and values representing the initial values of the inputs.
 
 - Returns:
-- - `values` : An object containing the current values of the inputs.
-- - `handleLiteChange` : A function to handle input changes. It should be used as the onChange event handler for input elements.
+    - `values` : An object containing the current values of the inputs.
+    - `handleLiteChange` : A function to handle input changes. It should be used as the onChange event handler for input elements.
 
 ### Testing
 
