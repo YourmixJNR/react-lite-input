@@ -7,7 +7,7 @@ interface InitialValues {
 export default function useInput(initialValue: InitialValues) {
   const [values, setValues] = useState<InitialValues>(initialValue);
 
-  const handleLiteChange = useCallback((event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleLiteChange = useCallback((event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = event.target;
     setValues((prevValues) => ({ ...prevValues, [name]: value }));
   }, []);
